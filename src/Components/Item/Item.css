@@ -1,0 +1,49 @@
+.item{
+    width: 250px;
+    
+}
+
+.item p{
+    margin: 6px 0px;
+}
+
+.item-prices{
+    display: flex;
+    gap: 20px;
+}
+.item-price-new{
+    color: #374151;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.iem-price-old{
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: 500;text-decoration: line-through;
+}
+.item:hover{
+    transform: scale(1.05);
+    transition:0.6s ;
+}
+
+.item img {
+    width: 80%; /* Makes the image responsive */
+    height: 300px; /* Maintains the aspect ratio */
+    max-width: 250px; /* Limits the maximum width */
+    border-radius: 8px; /* Optional: adds rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: adds shadow for depth */
+}
+.item p{
+    width: 80%;
+    max-width: 250px;
+}
+.item-price-new {
+    color: green; /* Styles for the new price */
+    font-weight: bold;
+}
+
+.item-price-old {
+    color: gray; /* Styles for the old price */
+    text-decoration: line-through; /* Strikethrough for old price */
+}
